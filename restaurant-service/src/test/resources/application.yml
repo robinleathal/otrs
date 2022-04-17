@@ -1,0 +1,11 @@
+#If you are using a few Spring Cloud dependencies that you don't want to use during testing
+#the integration test, then you can disable specific Spring Cloud features, such
+#as spring.cloud.discovery, using the configuration in
+#test/resources/application.yml, as shown in
+# Spring properties
+spring:
+  cloud:
+    discovery:
+      enabled: false
+  aop:
+    auto: false
