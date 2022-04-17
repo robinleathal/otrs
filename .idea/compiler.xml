@@ -15,7 +15,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="booking-service" options="-parameters" />
-      <module name="otrs" options="" />
+      <module name="otrs" options="-parameters" />
       <module name="restaurant-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
